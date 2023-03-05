@@ -1,1 +1,2 @@
 No primeiro Projeto da Disciplina "Programação Concorrente", foi criado por mim, uma aplicação utilizando Java, JavaFX e CSS chamada "Yastrologia". Neste programa, é possível através de informações fornecidas pelo usuário, determinar qual o signo do mesmo. A aplicação também fornece dados sobre os 12 signos do zodíaco e informações de contato sobre o programador.  
+obs. O programa  nao se encontra em mvc pois o docente sugeriu que fosse feito assim  devido ao metof de correcao do mesmo.
