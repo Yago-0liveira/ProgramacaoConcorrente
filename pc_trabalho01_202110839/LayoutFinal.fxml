@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="400.0" prefWidth="640.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TelaFinalController">
+   <children>
+      <AnchorPane layoutX="5.0" layoutY="336.0" prefHeight="73.0" prefWidth="640.0" style="-fx-background-color: #9d31fe;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label alignment="CENTER" layoutX="146.0" layoutY="14.0" prefHeight="25.0" prefWidth="405.0" text="© Copyright 2023, Todos os direitos reservados | @YOS" textFill="WHITE" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="115.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnContato" alignment="CENTER" layoutX="285.0" layoutY="40.0" mnemonicParsing="false" onAction="#entrarContato" prefHeight="25.0" prefWidth="74.0" stylesheets="@Style.css" text="Contato" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <tooltip>
+                  <Tooltip text="Contato">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Tooltip>
+               </tooltip>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ScrollPane hbarPolicy="NEVER" layoutX="1.0" layoutY="71.0" prefHeight="329.0" prefWidth="640.0" style="-fx-background-color: #0eafd4;" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="590.0" prefWidth="640.0" style="-fx-background-color: black;">
+               <children>
+                  <ImageView fx:id="ImageSigno" fitHeight="335.0" fitWidth="350.0" layoutX="153.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="153.0" AnchorPane.rightAnchor="152.0">
+                     <image>
+                        <Image url="@aquariof.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="365.0" fitWidth="361.0" layoutX="142.0" layoutY="-61.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="-55.0">
+                     <image>
+                        <Image url="@letras.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="btnHome" fitHeight="113.0" fitWidth="88.0" layoutX="-1.0" layoutY="-4.0" onMouseClicked="#clickMouseBack" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Home.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutX="267.0" layoutY="135.0" text="Você é do Signo: " textFill="#0eafd4">
+                     <font>
+                        <Font name="Sitka Text" size="14.0" />
+                     </font></Label>
+                  <Label fx:id="nomeid" alignment="CENTER" layoutX="96.0" layoutY="80.0" prefHeight="45.0" prefWidth="449.0" text="NOME DA PESSOA GRANDE" textAlignment="JUSTIFY" textFill="#9d31fe" wrapText="true">
+                     <font>
+                        <Font name="Serif Regular" size="26.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="signoMensagem" alignment="CENTER" layoutX="38.0" layoutY="441.0" prefHeight="158.0" prefWidth="564.0" text="Você, ariana, é independente e sempre dá um jeito de resolver os desafios que estão à sua frente. Isso porque o primeiro signo do zodíaco tem uma natureza competitiva, o que faz com que você tenha uma motivação própria, que independe da presença de outras pessoas à sua volta. E, assim, alcança sempre novos níveis de habilidade." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font size="15.0" />
+                     </font></Label>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

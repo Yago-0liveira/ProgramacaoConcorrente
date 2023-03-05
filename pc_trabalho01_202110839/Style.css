@@ -1,0 +1,54 @@
+/* ***************************************************************
+* Autor............: Yago Oliveira Silva
+* Matricula........: 202110839
+* Inicio...........: 15/02/2023
+* Ultima alteracao.: 15/02/2023
+* Nome.............: Principal.java
+* Funcao...........: EH Responsavel pela cores nos botoes
+******************************************************************/
+
+#btnComecar{
+  -fx-background-color: rgb(157, 49, 254);
+}
+
+#btnComecar:hover {
+  -fx-background-color: rgba(0, 151, 204, 255);
+}
+
+#btnContato{
+  -fx-background-color: rgb(157, 49, 254);
+  -fx-border-width: 2px;
+}
+
+#btnContato:hover{
+  -fx-border-color: rgba(0, 151, 204, 255);
+}
+
+#btnhoroscop{
+  -fx-background-color: rgb(0, 0, 0);
+  -fx-border-width: 2px;
+}
+
+#btnhoroscop:hover{
+  -fx-border-color: rgba(0, 151, 204, 255);
+}
+
+#campNome{
+  -fx-text-fill: white;
+}
+
+#comboDia{
+  -fx-color: white;
+}
+
+#comboMes{
+  -fx-text-fill: white;
+}
+
+#btnProximo{
+  -fx-background-color: rgb(157, 49, 254);
+}
+
+#btnProximo:hover{
+  -fx-background-color: rgba(0, 151, 204, 255);
+}

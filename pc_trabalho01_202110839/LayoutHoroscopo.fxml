@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="400.0" prefWidth="640.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HoroscopoController">
+   <children>
+      <AnchorPane layoutX="5.0" layoutY="336.0" prefHeight="73.0" prefWidth="640.0" style="-fx-background-color: #9d31fe;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label layoutX="146.0" layoutY="14.0" prefHeight="20.0" prefWidth="401.0" text="© Copyright 2023, Todos os direitos reservados | @YOS" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnContato" layoutX="285.0" layoutY="40.0" mnemonicParsing="false" onAction="#entrarContato" prefHeight="30.0" prefWidth="80.0" stylesheets="@Style.css" text="Contato" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <tooltip>
+                  <Tooltip text="Contato">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Tooltip>
+               </tooltip>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ScrollPane hbarPolicy="NEVER" layoutX="1.0" layoutY="71.0" prefHeight="329.0" prefWidth="640.0" style="-fx-background-color: #0eafd4;" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="6000.0" prefWidth="640.0" style="-fx-background-color: black;">
+               <children>
+                  <ImageView fitHeight="778.0" fitWidth="816.0" layoutX="-105.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="-105.0" AnchorPane.rightAnchor="-33.0">
+                     <image>
+                        <Image url="@barra%20roxa.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="449.0" fitWidth="452.0" layoutX="80.0" layoutY="-57.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="3608.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="111.0" AnchorPane.topAnchor="-57.0">
+                     <image>
+                        <Image url="@OS%2012%20Signos%20do%20zodiaco.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="778.0" fitWidth="816.0" layoutX="-105.0" layoutY="5303.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@barra%20roxa.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="388.0" fitWidth="388.0" layoutX="112.0" layoutY="5544.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="112.0" AnchorPane.rightAnchor="140.0">
+                     <image>
+                        <Image url="@peixes.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="778.0" fitWidth="816.0" layoutX="-105.0" layoutY="4832.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@barra%20roxa.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="778.0" fitWidth="816.0" layoutX="-105.0" layoutY="4364.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@barra%20roxa.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="778.0" fitWidth="816.0" layoutX="-105.0" layoutY="3892.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@barra%20roxa.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="778.0" fitWidth="816.0" layoutX="-105.0" layoutY="3420.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@barra%20roxa.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="778.0" fitWidth="816.0" layoutX="-105.0" layoutY="2950.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="-105.0" AnchorPane.rightAnchor="-33.0">
+                     <image>
+                        <Image url="@barra%20roxa.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="778.0" fitWidth="816.0" layoutX="-105.0" layoutY="2479.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@barra%20roxa.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="778.0" fitWidth="816.0" layoutX="-105.0" layoutY="2007.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="-105.0" AnchorPane.rightAnchor="-33.0">
+                     <image>
+                        <Image url="@barra%20roxa.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="778.0" fitWidth="816.0" layoutX="-105.0" layoutY="1535.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="-105.0" AnchorPane.rightAnchor="-33.0">
+                     <image>
+                        <Image url="@barra%20roxa.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="778.0" fitWidth="816.0" layoutX="-105.0" layoutY="1064.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="-105.0" AnchorPane.rightAnchor="-33.0">
+                     <image>
+                        <Image url="@barra%20roxa.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="778.0" fitWidth="816.0" layoutX="-105.0" layoutY="591.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@barra%20roxa.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="388.0" fitWidth="388.0" layoutX="111.0" layoutY="355.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="112.0" AnchorPane.rightAnchor="140.0">
+                     <image>
+                        <Image url="@aries.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="btnHome" fitHeight="113.0" fitWidth="88.0" layoutX="-1.0" layoutY="-4.0" onMouseClicked="#clickMouseBack" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Home.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <Label layoutX="98.0" layoutY="656.0" prefHeight="105.0" prefWidth="424.0" text="O signo de Áries é representado pelo carneiro, o animal que usa a própria cabeça como arma com bravura. Aqui, então, vence o líder, aquele que tem a cabeça mais dura. A coragem e a valentia são, portanto, valores presentes no seu modode ser e de viver. Você impõe sua vontade, lidera seu caminho e briga até o fim pelo que quer." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Sitka Text" size="12.0" />
+                     </font></Label>
+                  <Label layoutX="109.0" layoutY="1581.0" prefHeight="156.0" prefWidth="391.0" text="O grafismo do signo de Gêmeos, simbolizado pelo algarismo romano II, representa as polaridades existentes e associadas a esse signo… Dia e noite, luz e sombra, alegria e tristeza. Gêmeos é a percepção dos muitoscaminhos e possibilidades que nos rodeiam e, para isso, é importante que a mente se mantenha aberta e curiosa." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Sitka Text" size="12.0" />
+                     </font></Label>
+                  <ImageView fitHeight="388.0" fitWidth="388.0" layoutX="112.0" layoutY="834.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="112.0" AnchorPane.rightAnchor="140.0">
+                     <image>
+                        <Image url="@touro.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="112.0" layoutY="1144.0" prefHeight="100.0" prefWidth="396.0" text="O signo de Touro é graficamente simbolizado pelos cornos do próprio touro, que representa a Lua Crescente com toda a sua fecundidade e fartura. Afinal, esse é o signo que exalta a materialidade, os recursos e a produtividade. Sendo o maior animal do zodíaco,Touro é a própria força física que resiste e cumpre com as mais árduas tarefas." textAlignment="CENTER" textFill="#fffdfd" wrapText="true">
+                     <font>
+                        <Font name="Sitka Text" size="12.0" />
+                     </font></Label>
+                  <ImageView fitHeight="388.0" fitWidth="388.0" layoutX="112.0" layoutY="1306.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="112.0" AnchorPane.rightAnchor="140.0">
+                     <image>
+                        <Image url="@gemeos.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="388.0" fitWidth="388.0" layoutX="112.0" layoutY="1796.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="112.0" AnchorPane.rightAnchor="140.0">
+                     <image>
+                        <Image url="@cancer.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="108.0" layoutY="2062.0" prefHeight="134.0" prefWidth="408.0" text="O signo de Câncer é o caranguejo que representa a experiência de viver em dois mundos…  Na terra,a estabilidade do mundo físico; e na água, o universo psíquico. O animal que carrega sua casca protetora simboliza também a necessidade humana de construir um abrigo, interno e/ou externo, para voltar quando quiser sentir segurança." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Sitka Text" size="12.0" />
+                     </font></Label>
+                  <ImageView fitHeight="388.0" fitWidth="388.0" layoutX="112.0" layoutY="2261.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="112.0" AnchorPane.rightAnchor="140.0">
+                     <image>
+                        <Image url="@leao.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="107.0" layoutY="2584.0" text="O simbolismo do signo de Leão exalta a exuberância da vida. Reconhecido&#10;como “o rei dos animais”, o ar de nobreza e o porte majestoso associados&#10;à ferocidade do animal fascinam desde sempre o olhar do homem,&#10;despertando tanto admiração e respeito, quanto medo." textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Sitka Text" size="12.0" />
+                     </font></Label>
+                  <ImageView fitHeight="388.0" fitWidth="388.0" layoutX="112.0" layoutY="2708.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="112.0" AnchorPane.rightAnchor="140.0">
+                     <image>
+                        <Image url="@virgem.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="103.0" layoutY="3000.0" prefHeight="173.0" prefWidth="411.0" text="O signo de Virgem é simbolizado pela virgem Astréia. É também o único do Zodíaco representado por uma mulher e, por isso, trata-se de um universo associado ao feminino, à terra que respeita seu ritmo orgânico, tornando-se assim capaz de produzir os mais variados frutos. É a multiplicidade ao nosso redor e as diversas formas com que a matéria se apresenta para nós." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Sitka Text" size="12.0" />
+                     </font></Label>
+                  <ImageView fitHeight="340.0" fitWidth="336.0" layoutX="152.0" layoutY="3235.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="152.0" AnchorPane.rightAnchor="152.0">
+                     <image>
+                        <Image url="@libra.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="114.0" layoutY="3506.0" prefHeight="107.0" prefWidth="384.0" text="O signo de Libra é o único do Zodíaco representado por um objeto, a balança, símbolo da justiça e do equilíbrio. As ações librianas são sempre fruto de grandes reflexões, que permitem a análise de todos os lados de uma situação. No seu belo universo, habitam o “eu” e o “outro”, com suas diferenças sendo respeitadas e acolhidas." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Sitka Text" size="12.0" />
+                     </font></Label>
+                  <ImageView fitHeight="388.0" fitWidth="388.0" layoutX="112.0" layoutY="3655.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="112.0" AnchorPane.rightAnchor="140.0">
+                     <image>
+                        <Image url="@escorpiao.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="113.0" layoutY="3914.0" prefHeight="210.0" prefWidth="383.0" text="Os escorpiões são animais de hábitos noturnos, que se sentem seguros em contato com as sombras. Assim é também a realidade desse signo, cuja maior força é a de levar luz às questões obscuras da alma. Como cirurgiões espirituais, nativos do signo de Escorpião têm a capacidade de acessar as feridas emocionais que pedem por cura e transformação." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Sitka Text" size="12.0" />
+                     </font></Label>
+                  <ImageView fitHeight="388.0" fitWidth="388.0" layoutX="112.0" layoutY="4169.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="112.0" AnchorPane.rightAnchor="140.0">
+                     <image>
+                        <Image url="@sagitario.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="114.0" layoutY="4402.0" prefHeight="202.0" prefWidth="393.0" text="O signo de Sagitário é representado pelo centauro, o arqueiro que segue firme na direção das flechas que dispara. É o signo que supera a si mesmo, colocando rédeas no seu lado animal para permitir que o instinto e o intelecto possam estar a serviço da evolução espiritual. O que importa mesmo é cavalgar com fé em direção às conquistas." textAlignment="CENTER" textFill="#f5f5f5" wrapText="true">
+                     <font>
+                        <Font name="Sitka Text" size="12.0" />
+                     </font></Label>
+                  <ImageView fitHeight="388.0" fitWidth="388.0" layoutX="112.0" layoutY="4598.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="112.0" AnchorPane.rightAnchor="140.0">
+                     <image>
+                        <Image url="@capricornio.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="106.0" layoutY="4889.0" prefHeight="145.0" prefWidth="417.0" text="O signo de Capricórnio é representado pela cabra montanhesa, que sobe a montanha fincando os pés no chão duro rumo ao topo. Ela é o símbolo da estabilidade e da perseverança. Entretanto, esse animal tem um detalhe mágico, que é uma cauda de peixe que oculta por trás de uma personalidade aparentemente seca – um instinto e uma sensibilidade que quase nunca são citados nas interpretações que lemos por aí." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Sitka Text" size="12.0" />
+                     </font></Label>
+                  <ImageView fitHeight="388.0" fitWidth="388.0" layoutX="112.0" layoutY="5066.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="112.0" AnchorPane.rightAnchor="140.0">
+                     <image>
+                        <Image url="@aquario.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="110.0" layoutY="5370.0" prefHeight="150.0" prefWidth="406.0" text="O signo de Aquário é representado pelo aguadeiro, aquele que serve à humanidade, que rega para fazer crescer. Tem como símbolo gráfico duas ondas sincronizadas, trazendo a vibração conjunta entre indivíduo e coletividade. É também a eletricidade cósmica, os raios, as tempestades que são capazes de sacudir a natureza, libertando e espalhando as novas sementes." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Sitka Text" size="12.0" />
+                     </font></Label>
+                  <Label layoutX="105.0" layoutY="5857.0" prefHeight="129.0" prefWidth="411.0" text="O signo de Peixes é representado por dois peixes nadando em direções opostas, unidos por um cordão. Juntos, eles simbolizam as marés da vida, o fim de um ciclo e a preparação para o novo que irá chegar. Além disso, podemos dizer que no universo pisciano não existe separação, afinal, é nele onde o tudo e o nada convivem em perfeita sincronia. Por meio dele podemos conhecer o amor universal." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Sitka Text" size="12.0" />
+                     </font></Label>
+                  <Label layoutX="267.0" layoutY="298.0" text="Role para baixo" textFill="#0eafd4">
+                     <font>
+                        <Font name="Sitka Text" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

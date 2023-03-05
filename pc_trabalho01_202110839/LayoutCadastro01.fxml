@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-1.0" maxWidth="-1.0" opacity="0.96" prefHeight="400.0" prefWidth="640.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TelaCadastro01Controller">
+   <children>
+      <ImageView fitHeight="353.0" fitWidth="486.0" layoutX="144.0" layoutY="-55.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="-55.0">
+         <image>
+            <Image url="@letras.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="152.0" layoutY="77.0" prefHeight="38.0" prefWidth="340.0" text="1ª Pergunta - Qual o seu nome ?" textFill="#9d31fe">
+         <font>
+            <Font name="Serif Regular" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="138.0" text="Para que possamos começar é preciso saber qual o seu nome. Nosso gerador de signo &#10;astral precisa desta informação para poder prosseguir com a geração do seu signo." textAlignment="CENTER" textFill="#0eafd4">
+         <font>
+            <Font name="Sitka Text" size="14.0" />
+         </font></Label>
+      <TextField fx:id="campNome" alignment="CENTER" layoutX="219.0" layoutY="200.0" opacity="0.5" prefHeight="38.0" prefWidth="203.0" style="-fx-background-radius: 20; -fx-background-color: #9d31fe;" stylesheets="@Style.css" text="Digite seu nome">
+         <font>
+            <Font name="Sitka Text" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <Button fx:id="btnProximo" layoutX="251.0" layoutY="260.0" mnemonicParsing="false" onMouseClicked="#clickMouseEntrar" prefHeight="38.0" prefWidth="138.0" style="-fx-background-radius: 20;" stylesheets="@Style.css" text="Próxima pergunta" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Sitka Text" size="12.0" />
+         </font></Button>
+      <AnchorPane layoutX="5.0" layoutY="336.0" prefHeight="73.0" prefWidth="640.0" style="-fx-background-color: #9d31fe;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label layoutX="115.0" layoutY="14.0" prefHeight="25.0" prefWidth="410.0" text="© Copyright 2023, Todos os direitos reservados | @YOS" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnContato" layoutX="270.0" layoutY="39.0" mnemonicParsing="false" onAction="#entrarContato" prefHeight="30.0" prefWidth="88.0" style="-fx-background-color: #9d31fe;" stylesheets="@Style.css" text="Contato" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <tooltip>
+                  <Tooltip text="Contato">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Tooltip>
+               </tooltip>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="113.0" fitWidth="88.0" layoutX="-1.0" layoutY="-5.0" onMouseClicked="#clickMouseBack" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Home.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>
