@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="455.0" prefWidth="740.0" style="-fx-background-color: #87ceeb;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controle.PrincipalController">
+   <children>
+      <ImageView fitHeight="128.0" fitWidth="128.0" layoutX="578.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/plantaU.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageNotas" fitHeight="213.0" fitWidth="187.0" layoutX="-24.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/caixa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="128.0" fitWidth="129.0" layoutX="45.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/plantaU.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="325.0" fitWidth="343.0" layoutX="511.0" layoutY="-84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/Sol.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="209.0" fitWidth="223.0" layoutX="520.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/Nuvemm.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="228.0" fitWidth="223.0" layoutX="15.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/Nuvemm.gif" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="-3.0" layoutY="366.0" prefHeight="87.0" prefWidth="736.0" style="-fx-background-color: green;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <ImageView fx:id="ImageLNeto1" fitHeight="136.0" fitWidth="138.0" layoutX="-16.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="-16.0" />
+      <ImageView fx:id="ImageLNeto2" fitHeight="136.0" fitWidth="138.0" layoutX="623.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="-19.0" />
+      <Text fx:id="textFamilia" layoutX="7.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pai:&#10;Filho 1:&#10;Filho 2:&#10;Filho 3:&#10;Neto 1:&#10;Neto 2:&#10;Bisneto:&#10;" wrappingWidth="68.0" />
+      <ImageView fitHeight="120.0" fitWidth="110.0" layoutX="-1.0" layoutY="368.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/pedraE.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="110.0" layoutX="618.0" layoutY="370.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/pedraD.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="178.0" fitWidth="181.0" layoutX="394.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/gramaU.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageLFilho3" fitHeight="136.0" fitWidth="138.0" layoutX="420.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="ImageLFilho2" fitHeight="136.0" fitWidth="138.0" layoutX="523.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="81.0" />
+      <ImageView fitHeight="200.0" fitWidth="197.0" layoutX="169.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/gramaU.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageLFilho1" fitHeight="136.0" fitWidth="138.0" layoutX="203.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="455.0" fitWidth="452.0" layoutX="150.0" layoutY="-13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/Arvore.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageLBisneto" fitHeight="136.0" fitWidth="138.0" layoutX="95.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="95.0" />
+      <ImageView fx:id="ImageLPai" fitHeight="136.0" fitWidth="138.0" layoutX="315.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="paii" fitHeight="100.0" fitWidth="100.0" layoutX="331.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="filho3" fitHeight="100.0" fitWidth="100.0" layoutX="412.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="filho2" fitHeight="108.0" fitWidth="100.0" layoutX="330.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="neto2" fitHeight="100.0" fitWidth="100.0" layoutX="326.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="bisneto" fitHeight="100.0" fitWidth="100.0" layoutX="167.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="filho1" fitHeight="100.0" fitWidth="100.0" layoutX="255.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="neto1" fitHeight="100.0" fitWidth="100.0" layoutX="203.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true" />
+      <Text fx:id="iddFilho1" layoutX="51.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="iddFilho2" layoutX="51.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="iddFilho3" layoutX="51.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="iddNeto1" layoutX="51.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="iddNeto2" layoutX="51.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="iddbisneto" layoutX="51.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="iddPai" layoutX="51.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <ImageView fx:id="cFilho1" fitHeight="22.0" fitWidth="16.0" layoutX="96.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="cPai" fitHeight="22.0" fitWidth="16.0" layoutX="96.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="cFilho2" fitHeight="22.0" fitWidth="16.0" layoutX="96.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="cFilho3" fitHeight="22.0" fitWidth="16.0" layoutX="95.0" layoutY="227.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="cNeto1" fitHeight="22.0" fitWidth="16.0" layoutX="95.0" layoutY="242.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="cNeto2" fitHeight="22.0" fitWidth="16.0" layoutX="95.0" layoutY="258.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="cBisneto" fitHeight="22.0" fitWidth="16.0" layoutX="95.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="bottonIniciar" layoutX="329.0" layoutY="419.0" mnemonicParsing="false" onAction="#clicouStart" prefHeight="30.0" prefWidth="104.0" style="-fx-background-radius: 10; -fx-background-color: #DFD880;" text="Iniciar" textFill="#111010">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
