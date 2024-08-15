@@ -27,6 +27,7 @@ uma ponte de via única. Se dois trens tentarem cruzar a ponte ao mesmo tempo, u
 para resolver esse problema são o uso de variáveis de bloqueio e a alternância rigorosa.
 
 ## Execução
+![pctrabalho03](https://github.com/user-attachments/assets/325a648d-7701-4e83-ba98-917b1c347001)
 
 # pc_trabalho04_202110839
 O problema do Produtor/Consumidor é um desafio clássico em programação concorrente, onde múltiplos processos ou threads precisam compartilhar um recurso comum,
@@ -34,6 +35,7 @@ como um buffer ou fila, de forma sincronizada. Neste problema, o "Produtor" é r
 "Consumidor" retira os dados desse buffer para processá-los. O desafio surge porque o Produtor e o Consumidor operam de forma assíncrona, o que pode levar a várias condições problemáticas.
 
 ## Execução
+![pctrabalho04](https://github.com/user-attachments/assets/2c510188-87f3-4775-b0ae-d2d71f03967c)
 
 # pc_trabalho05_202110839
 O desafio do Trânsito Autônomo envolve oito carros, cada um com uma rota definida. Em cada rua, apenas um carro pode circular por vez. Por isso, eles compartilham
@@ -41,3 +43,4 @@ essas vias e precisam coordenar suas passagens para evitar problemas de concorr�
 implementadas soluções utilizando semáforos, que empregam mecanismos de sincronização para assegurar que os carros acessem as ruas de maneira segura e organizada.
 
 ## Execução
+![pctrabalho05](https://github.com/user-attachments/assets/1429a006-db61-49de-b50c-c4e527941fba)
