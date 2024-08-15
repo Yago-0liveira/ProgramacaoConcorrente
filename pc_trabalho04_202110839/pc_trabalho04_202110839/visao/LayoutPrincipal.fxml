@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="456.0" prefWidth="706.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controle.PrincipalController">
+   <children>
+      <ImageView fitHeight="479.0" fitWidth="720.0" layoutX="28.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@imagens/a-restaurant-interior-oficial.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="166.0" layoutX="-41.0" layoutY="357.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/cabeca.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="82.0" fitWidth="113.0" layoutX="615.7006988525391" layoutY="379.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="-7.506622314453125">
+         <image>
+            <Image url="@imagens/cabecaCliente.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="iniciar" layoutX="295.0" layoutY="392.0" mnemonicParsing="false" onAction="#iniciar" prefHeight="42.0" prefWidth="130.0" text="Iniciar" AnchorPane.bottomAnchor="34.0" AnchorPane.leftAnchor="295.0" AnchorPane.rightAnchor="295.0" AnchorPane.topAnchor="392.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <stylesheets>
+            <URL value="@Style.css" />
+            <URL value="@Style.css" />
+         </stylesheets>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <ImageView fx:id="cozinheiroCostas" fitHeight="127.0" fitWidth="130.0" layoutX="259.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/chefcostas.png" />
+         </image></ImageView>
+      <ImageView fx:id="comida" fitHeight="150.0" fitWidth="200.0" layoutX="222.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/Comida.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="comida3" fitHeight="150.0" fitWidth="200.0" layoutX="122.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/Comida.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="comida2" fitHeight="150.0" fitWidth="200.0" layoutX="171.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/Comida.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="comida4" fitHeight="150.0" fitWidth="200.0" layoutX="77.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/Comida.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="balaoCozinhando" fitHeight="86.0" fitWidth="97.0" layoutX="350.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/balao_cozinhando.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="balaoEsperando" fitHeight="86.0" fitWidth="84.0" layoutX="347.0" layoutY="185.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/Balao_esperando.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cozinheirofrente" fitHeight="127.0" fitWidth="130.0" layoutX="259.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/cheffrente.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="balaoEntregando" fitHeight="86.0" fitWidth="97.0" layoutX="350.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/balao_entregando.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="balaoComendo" fitHeight="86.0" fitWidth="84.0" layoutX="347.0" layoutY="185.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/balao_comendo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="pausaChef" layoutX="70.0" layoutY="426.0" mnemonicParsing="false" onAction="#pausaChefAction" prefHeight="30.0" prefWidth="65.0" stylesheets="@Style.css" text="Pausar">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="pausaCliente" layoutX="574.0" layoutY="426.0" mnemonicParsing="false" onAction="#pausaClienteAction" prefHeight="30.0" prefWidth="65.0" stylesheets="@Style.css" text="Pausar">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="rein" layoutX="318.0" layoutY="432.0" mnemonicParsing="false" onAction="#reiniciar" stylesheets="@Style.css" text="Reiniciar">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Slider fx:id="sliderChef" layoutX="74.0" layoutY="398.0" majorTickUnit="1.0" max="3.0" minorTickCount="0" prefHeight="19.0" prefWidth="65.0" snapToTicks="true" stylesheets="@Style.css" />
+      <Slider fx:id="sliderCliente" layoutX="573.0" layoutY="401.0" majorTickUnit="1.0" max="3.0" minorTickCount="0" prefHeight="19.0" prefWidth="65.0" snapToTicks="true" stylesheets="@Style.css" />
+   </children>
+</AnchorPane>
