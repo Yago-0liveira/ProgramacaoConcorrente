@@ -15,3 +15,5 @@ O projeto fork se trata da divisao de processos em um arquivo onde os processos 
 em um tempo previamente determinado. eles são chamados de: pai, filho1, filho2, filho3, neto1, neto2 e bisneto.
 O projeto thread se trata da divisão de processos em java feito atraves da classe Thread que é extendida para as classes usadas no projeto. Utilizando
 o mesmo conceito aplicado no Fork, o projeto thread conta com uma GUI feita em javafx para representar o nascimento e a morte dos processos.
+
+![pctrabalho02](https://github.com/user-attachments/assets/de57d367-d534-42ff-bed3-1efae90f1f59)
