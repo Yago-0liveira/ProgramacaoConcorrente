@@ -29,6 +29,10 @@ para resolver esse problema são o uso de variáveis de bloqueio e a alternânci
 ## Execução
 
 # pc_trabalho04_202110839
+O problema do Produtor/Consumidor é um desafio clássico em programação concorrente, onde múltiplos processos ou threads precisam compartilhar um recurso comum,
+como um buffer ou fila, de forma sincronizada. Neste problema, o "Produtor" é responsável por gerar dados e colocá-los em um buffer compartilhado, enquanto o
+"Consumidor" retira os dados desse buffer para processá-los. O desafio surge porque o Produtor e o Consumidor operam de forma assíncrona, o que pode levar a várias condições problemáticas.
+
 ## Execução
 
 # pc_trabalho05_202110839
