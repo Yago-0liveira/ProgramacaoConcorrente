@@ -6,6 +6,8 @@ Repositório com todos os projetos feitos na disciplina "Programação Concorren
 O projeto se trata de um aplicativo para desktop feito em java onde é possível descobrir o signo do usuário utilizando  os dados fornecidos
 pelo próprio usuário. É possível também obter mais informações sobre os signos e entrar em contato com o desenvolvedor.
 
+![Yastrologia](https://github.com/user-attachments/assets/08f07c79-b141-4c36-b5e3-9eb1173655d3)
+
 #pc_trabalho02_202110839
 
 Esse projeto está dividido em duas partes, uma feita em c++ que está na subpasta "fork" e a outra na subpasta chamada "thread".
